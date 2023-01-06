@@ -1,6 +1,5 @@
 const axios = require('axios').default;
 const { WAFJS } = require('wafjs');
-const { request } = require('../../Shop/app');
 const ips = require("../models/ipModel.js");
 const { Model } = require('mongoose');
 const generalController = require('./generalControllers');
